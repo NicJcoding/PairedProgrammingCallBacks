@@ -33,6 +33,11 @@ console.log(
 
 let xorSelect = function(array, cb1, cb2) {
   // Your code here
+  
+  array.forEach(element => {
+    let res = cb1(element);
+    let res2 = cb2(element);
+  });
 };
 
 /*****************DO NOT MODIFY ANYTHING UNDER THIS  LINE**********************/
